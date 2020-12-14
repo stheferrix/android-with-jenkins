@@ -16,7 +16,9 @@ Let's start with baby step. First of all, make sure you are familiarized with co
 To learn more each one, follow:
 
 Android - https://developer.android.com/docs
+
 Jenkins - https://www.jenkins.io/doc/
+
 Gradle- https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html
 
 ## Install Java

@@ -70,7 +70,7 @@ To check if the Jenkins status, use:
 
 And the output is something like that:
 ```
-sthefania@ubuntu:~$ systemctl status jenkins.service 
+systemctl status jenkins.service 
 ● jenkins.service - LSB: Start Jenkins at boot time
      Loaded: loaded (/etc/init.d/jenkins; generated)
      Active: active (exited) since Mon 2020-12-14 09:40:50 PST; 2h 33min ago
@@ -104,20 +104,9 @@ For now, we just need configurate JAVA_HOME and ANDROID_HOME.
 In label "Name" put the enviroment name, like JAVA_HOME
 In lable "Valeu" put the location that software are installed in you OS, like 
 
-It's commun the build call for enviroment ANDROID_SDK_ROOT, so a keep the two options:
+It's commun the build call for enviroment ANDROID_SDK_ROOT.
 
-[image]
-
-## Configure project in Jenkins
-
-
-Build
-configuração de pipeline com gradlew
-
-Artefato
-gerar apk como artefato
-
-Referencias
+References
 https://medium.com/simform-engineering/getting-started-with-jenkins-android-1138ee3d1e99
 https://medium.com/@guibasconti/set-up-jenkins-for-android-apps-a3dfbd80940f
 
